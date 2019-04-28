@@ -1,0 +1,86 @@
+body {
+	color: white;
+	background-image: url(../images/13.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 89vh;
+	text-align: center;
+}
+
+.logo {
+	background-image: url(../images/6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 89vh;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+}
+
+.main-article {
+	height: 20vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 200px;
+}
+
+.learn {
+	color: white;
+	background-image: url(../images/4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20vh;
+	width: 10vw;
+	border: 4px black solid;
+	border-radius: 70px;
+}
+
+.experience {
+	color: white;
+	background-image: url(../images/6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20vh;
+	width: 10vw;
+	border: 4px black solid;
+	border-radius: 70px;
+}
+
+.fun {
+	color: white;
+	background-image: url(../images/5.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20vh;
+	width: 10vw;
+	border: 4px black solid;
+	border-radius: 70px;
+}
+
+.h1 {
+	color: white;
+	padding-top: 70px;
+}
+
+.back {
+	float: left;
+	position: absolute;
+	border: 1px white solid;
+    background: black;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+

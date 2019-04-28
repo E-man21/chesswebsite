@@ -1,0 +1,102 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	color: white;
+	background-image: url(../images/2.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 83vh;
+}
+
+
+.menu {
+	display: grid;
+	grid-template-columns: repeat(3,2fr);
+	grid-gap: 10px;
+	margin-right: 20px;
+	margin-left: 800px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.menu li{
+	list-style: none;
+	font-size: 20px;
+	padding: 5px 20px;
+	border: 1px white solid;
+	text-align: center;
+}
+
+.option:hover {
+	background: white;
+	color: black;
+	transition: all 0.6s ease-out;
+}
+
+.color {
+	color: white;
+}
+
+.color1 {
+	color: white;
+}
+
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h3 {
+	position: absolute;
+	top: 55%;
+	left: 5%;
+	font-family: courier new;
+}
+
+.active {
+	background-color: white;
+	color: black;
+}
+
+.footer {
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 400px;
+}
+
+.button {
+	position: absolute;
+	top: 55%;
+	left: 35%;
+}
+
+.button {
+	display: grid;
+	grid-template-columns: repeat(3,2fr);
+	grid-gap: 10px;
+}
+
+.button1 {
+	list-style: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	border: 1px white solid;
+	text-align: center;
+	color: white;
+}
+
+.button1:hover {
+	background: white;
+	color: black;
+	transition: all 0.6s ease-out;
+}

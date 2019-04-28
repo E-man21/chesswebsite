@@ -1,0 +1,22 @@
+.title {
+	text-align: center;
+	color: white;
+}
+
+body {
+	color: white;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 89vh;
+	text-align: center;
+}
+
+.h3 {
+	text-align: center;
+}
+
+.back {
+	float: left;
+}
